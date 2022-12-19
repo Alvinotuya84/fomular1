@@ -1,0 +1,96 @@
+.home-span{
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+.home-h2{
+
+    padding-top: 210px;
+}
+.float-container {
+    display: flex;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 1px solid rgb(59, 57, 57);
+}
+.float-child1 {
+    width: 70vw;
+    float: left;
+    padding: 20px;
+    border: 1px solid rgb(59, 57, 57);
+}
+.we{
+    float: right;
+}
+a{
+    color: rgb(99, 35, 35);
+    text-decoration: solid;
+}
+h3{
+    color: rgb(99, 35, 35);
+}
+.parent{
+    display:flex;
+    justify-content: space-between;
+    padding-right: 5%;
+
+
+}
+.child{
+  width: 50%; /* adjust as needed */
+  padding: 20px;
+ justify-content: space-around;
+}
+.d{
+    width: 50px;
+}
+
+table{
+    border-collapse: collapse;
+}
+td  {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0;
+    /* now, here you can add the margin */
+    margin-bottom: 10px;
+    /* just some nice padding, you don't really need this */
+    padding: 10px;
+}
+
+
+.card {
+    display: block;
+    background-color: #ffffff;
+    font-family: sans-serif;
+  }
+
+  .card img {
+    width: 10%;
+    height: 10%;
+  }
+
+  .card h1 {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .card .points {
+    color: #000000;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .card .description {
+    color: #777777;
+    font-size: 14px;
+    margin: 0;
+  }
+  .blueGray{
+    background-color: #7393B3;
+  }
